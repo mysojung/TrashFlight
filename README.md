@@ -32,10 +32,16 @@
 
 ## 📂 프로젝트 구조
 TrashFlight/
-├── Assets/ # 게임 에셋 (스크립트, 이미지, 사운드 등)
-├── ProjectSettings/ # Unity 프로젝트 설정
-├── Packages/ # 패키지 설정
-└── README.md # 프로젝트 설명 문서
+ ├── Assets/               # 게임 에셋 (스크립트, 이미지, 사운드, 프리팹 등)
+ │   ├── Scripts/          # C# 스크립트
+ │   ├── Sprites/          # 이미지 리소스
+ │   ├── Audio/            # 사운드 리소스
+ │   └── Scenes/           # Unity 씬 파일
+ │
+ ├── ProjectSettings/      # Unity 프로젝트 설정 파일
+ ├── Packages/             # Unity 패키지 관리 설정
+ ├── .gitignore            # 불필요한 파일 제외 규칙
+ └── README.md             # 프로젝트 설명 문서
 
 
 ---
