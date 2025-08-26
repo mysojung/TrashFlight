@@ -31,7 +31,7 @@
 ---
 
 ## 📂 프로젝트 구조
-TrashFlight/
+```TrashFlight/
  ├── Assets/               # 게임 에셋 (스크립트, 이미지, 사운드, 프리팹 등)
  │   ├── Scripts/          # C# 스크립트
  │   ├── Sprites/          # 이미지 리소스
@@ -42,7 +42,7 @@ TrashFlight/
  ├── Packages/             # Unity 패키지 관리 설정
  ├── .gitignore            # 불필요한 파일 제외 규칙
  └── README.md             # 프로젝트 설명 문서
-
+```
 
 ---
 
@@ -53,5 +53,19 @@ TrashFlight/
 
 2. Unity Hub에서 프로젝트 열기 선택 후 TrashFlight 폴더를 선택합니다.
 3. Unity Editor에서 실행 ▶️ 버튼을 눌러 게임을 실행합니다.
+
+## 📌 앞으로 개선할 점
+
+- 레벨 디자인 추가
+- 배경 음악 및 효과음 강화
+- 점수 UI 및 게임 오버 화면 개선
+
+  ---
+
+## 🤝 기여
+
+이 프로젝트는 개인 학습용입니다.
+
+아이디어나 피드백은 자유롭게 Issues에 남겨주세요!
 
 
