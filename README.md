@@ -1,71 +1,58 @@
 # 🛩️ TrashFlight
 
-간단한 Unity 토이 프로젝트 **TrashFlight** 🎮  
-쓰레기를 모아 점수를 올리는 캐주얼 미니 게임입니다.
-
+A lightweight, casual 2D mini-game built with Unity where players collect falling trash to earn scores.
 
 ---
 
-## 📌 프로젝트 소개
-- **장르**: 2D 캐주얼 게임
-- **설명**: 플레이어가 캐릭터를 마우스로 조종해 쓰레기를 수집하면 점수가 올라갑니다.  
-- **목표**: Unity와 C# 학습을 위해 만든 토이 프로젝트입니다.
+## 📌 Project Overview
+- **Genre**: 2D Casual / Arcade Game
+- **Description**: The player controls the main character using mouse inputs to collect pieces of trash scattered across the screen to increase their score.  
+- **Objective**: Developed as a hands-on toy project to master the fundamentals of the Unity engine and C# programming.
 
+## 🎮 How to Play
+1. Move the mouse to control the character's movement in real-time.
+2. Collect falling trash to increase your score.
+3. Avoid obstacles and stay within the screen boundaries—hitting an obstacle or moving out of bounds triggers a Game Over!
 
-
-
-## 🎮 게임 방법
-1. 마우스로 캐릭터를 조종합니다.
-2. 화면에 나타나는 쓰레기를 모으면 점수가 올라갑니다.
-3. 장애물이나 화면 밖으로 나가면 게임 오버!
-
-
-
-
-## 🛠️ 개발 환경
-- **Engine**: Unity (버전: 2021.3 LTS 이상 권장)
+## 🛠️ Tech Stack & Environment
+- **Engine**: Unity (Recommended: 2021.3 LTS or higher)
 - **Language**: C#  
 - **Platform**: Windows / macOS / WebGL
 
-
 ---
 
-## 📂 프로젝트 구조
-```TrashFlight/
- ├── Assets/               # 게임 에셋 (스크립트, 이미지, 사운드, 프리팹 등)
- │   ├── Scripts/          # C# 스크립트
- │   ├── Sprites/          # 이미지 리소스
- │   ├── Audio/            # 사운드 리소스
- │   └── Scenes/           # Unity 씬 파일
+## 📂 Project Structure
+```text
+TrashFlight/
+ ├── Assets/               # Game assets (scripts, sprites, audio, prefabs, etc.)
+ │   ├── Scripts/          # Core C# scripts handling gameplay logic
+ │   ├── Sprites/          # 2D visual resources and artwork
+ │   ├── Audio/            # Sound effects and background music
+ │   └── Scenes/           # Unity scene configuration files
  │
- ├── ProjectSettings/      # Unity 프로젝트 설정 파일
- ├── Packages/             # Unity 패키지 관리 설정
- ├── .gitignore            # 불필요한 파일 제외 규칙
- └── README.md             # 프로젝트 설명 문서
-```
+ ├── ProjectSettings/      # Unity project configuration files
+ ├── Packages/             # Unity package manager configuration
+ ├── .gitignore            # Git exclusion rules for unnecessary build files
+ └── README.md             # Project documentation
 
 ---
 
-## 🚀 실행 방법
-1. 이 레포지토리를 클론합니다.
+## 🚀 How to Run
+1. Clone this repository to your local machine:
    ```bash
    git clone https://github.com/mysojung/TrashFlight.git
 
-2. Unity Hub에서 프로젝트 열기 선택 후 TrashFlight 폴더를 선택합니다.
-3. Unity Editor에서 실행 ▶️ 버튼을 눌러 게임을 실행합니다.
+2. Open Unity Hub, click **"Add"**, and select the `TrashFlight` folder.
+3. Open the project, locate the main scene, and click the **Play (▶️)** button in the Unity Editor to test the game.
 
-## 📌 앞으로 개선할 점
+## 📌 Future Improvements
+- Implement structured level design and dynamic difficulty scaling.
+- Enhance the immersion with richer background music and satisfying sound effects.
+- Polish the Score UI and design a dedicated Game Over screen overlay.
 
-- 레벨 디자인 추가
-- 배경 음악 및 효과음 강화
-- 점수 UI 및 게임 오버 화면 개선
+---
 
-  ---
+## 🤝 Contribution & Feedback
+This is a personal learning project dedicated to sharpening core game development skills. 
 
-## 🤝 기여
-
-이 프로젝트는 개인 학습용입니다.
-
-아이디어나 피드백은 자유롭게 Issues에 남겨주세요!
-
-
+Ideas, feedback, or suggestions are always welcome! Feel free to open an **Issue**.
