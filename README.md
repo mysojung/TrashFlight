@@ -50,7 +50,6 @@ TrashFlight/
 - Enhance the immersion with richer background music and satisfying sound effects.
 - Polish the Score UI and design a dedicated Game Over screen overlay.
 
----
 
 ## 🤝 Contribution & Feedback
 This is a personal learning project dedicated to sharpening core game development skills. 
