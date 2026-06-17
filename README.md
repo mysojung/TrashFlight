@@ -41,7 +41,6 @@ TrashFlight/
 1. Clone this repository to your local machine:
    ```bash
    git clone https://github.com/mysojung/TrashFlight.git
- ```
 
 2. Open Unity Hub, click **"Add"**, and select the `TrashFlight` folder.
 3. Open the project, locate the main scene, and click the **Play (▶️)** button in the Unity Editor to test the game.
